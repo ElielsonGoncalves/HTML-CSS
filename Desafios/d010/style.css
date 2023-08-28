@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #38C979, #258450, #1A5C38);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.340);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.340);
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+}
+
+nav > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #84E1AD;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.340);
+}
+
+main > p > strong {
+    color: #1e693f;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > h1 {
+    padding: 10px;
+    color: #1e693f;
+    font-family: 'idroid', sans-serif;
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, #84E1AD, whitesmoke);
+    color: #1e693f;
+    font-family: 'idroid', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+}
+
+section > h4 {
+    background-color: #2FA866;
+    color: white;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+}
+
+section > picture {
+    margin: auto;
+}
+
+section > img {
+    display: flex;
+    margin: auto;
+}
+
+section.video-mkt {
+    background-color: #1A5C38;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+section > p > strong {
+    color: #1e693f;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1e693f;
+}
+
+.extra {
+    margin: 10px;
+    background-color: #96D9B3;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.310);
+}
+
+footer > p {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}

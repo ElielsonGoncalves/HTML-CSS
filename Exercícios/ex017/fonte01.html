@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm (centímetro);
+            mm (milímetro);
+            in (polegada);
+            px (pixel) - recomendada;
+            pt (ponto);
+            pc ("paica").
+
+            Medidas Relativas:
+            em (relativa a altura do M da fonte) - extremamente recomendada;
+            ex (relativo a altura do x da fonte);
+            rem (similar ao "em" mas relativo a fonte configurada no body);
+            vw (porcentagem da largura da "view port"/tela);
+            vh (porcentagem da altura da "view port"/tela);
+            % (auto explicativa).
+
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            /* 
+            font-weight serve para indicar o "peso" da fonte:
+            - lighter
+            - normal
+            - bold
+            - bolder
+            */
+        }
+        /*
+        shorthand 'font'
+
+        ordem: font-style -> font-weight -> font-size -> font-family
+
+        ex.: font: italic bolder 3em 'Work Sans', sans-serif;
+        */
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugiat voluptatem aliquam quas a esse eius rerum modi perferendis, necessitatibus doloribus deserunt tenetur incidunt est accusantium repudiandae ipsam, odio ducimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit cumque laboriosam minus iste, ipsum ut, in dicta earum sunt vel tempore voluptatum tempora? Temporibus corrupti voluptatibus rerum quam porro?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, vitae ratione quibusdam accusamus quod optio ab numquam, distinctio explicabo et similique magni maxime unde enim atque reprehenderit, eum tempora. Itaque?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque deleniti est reiciendis dolorum deserunt, recusandae, delectus error ea nisi, vel voluptas hic eaque impedit provident temporibus numquam expedita enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facilis aliquam dolorem earum fugit voluptatibus cupiditate quod temporibus labore itaque nesciunt doloribus in praesentium dolor repellat reiciendis nobis libero eum!</p>
+
+    <h2>Dicas</h2>
+    <p>Caso precise escolher uma fonte segura que irá ser representada em qualquer dispositivo:</p>
+    <ul>
+        <li>Sans-serif / Sem serifa</li>
+        <li>Serif / Serifada</li>
+        <li>Monospace / Mono espaçada</li>
+    </ul>
+</body>
+</html>
