@@ -8,10 +8,15 @@
         body {
             height: 100vh;
             /*apesar de ter uma imagem de fundo, é importante configurar um 'backgroun-color' porque a imagem pode demorar a carregar*/
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
+            
+
+            /*Shorthand - background:
+                color> image > position > [size] > attachment
+
+                apesar da ordem estar correta, no momento o size ainda não funciona no navegador, entao ainda é necessário configurá-lo a parte. (06/09/2023)
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
