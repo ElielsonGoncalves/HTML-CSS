@@ -12,6 +12,7 @@
         table {
             width: 350px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,15 @@
             background-color: rgb(69, 69, 69);
             color: white;
         }
+        
+        /*
+        O código a seguir serve para fixar o cabeçalho da tabela, mas funciona apenas para tabelas grandes.
+        */
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(69, 69, 69);
+        }
 
         /*a pseudoclasse "nth-child" pode ser configurada com:
             odd = linhas ímpares
@@ -46,8 +56,8 @@
             text-align: right;
         }
 
-        td.meuestado {
-            background-color: yellow;
+        p {
+            text-align: justify;
         }
     </style>
 </head>
@@ -193,5 +203,13 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere ex exercitationem voluptatibus ipsum, quia quas perspiciatis vel ipsa? Et fugiat nisi veniam aperiam dolorem quos non commodi quidem expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cumque ex odio minima voluptate ratione explicabo beatae qui magnam minus nemo, accusamus libero provident possimus suscipit obcaecati amet vitae commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ea cupiditate dignissimos consectetur quae vero, laborum molestiae odit laudantium vitae nemo rerum, adipisci culpa impedit magnam, molestias quidem dolorem similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi quo culpa perferendis omnis esse nesciunt dignissimos veniam cum ratione porro quas quis cupiditate, eius repudiandae facilis error natus alias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam suscipit eum nobis praesentium asperiores minima tempore, iusto nulla perspiciatis dicta quidem facilis, pariatur quisquam omnis eveniet totam ex vero perferendis?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere ex exercitationem voluptatibus ipsum, quia quas perspiciatis vel ipsa? Et fugiat nisi veniam aperiam dolorem quos non commodi quidem expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cumque ex odio minima voluptate ratione explicabo beatae qui magnam minus nemo, accusamus libero provident possimus suscipit obcaecati amet vitae commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ea cupiditate dignissimos consectetur quae vero, laborum molestiae odit laudantium vitae nemo rerum, adipisci culpa impedit magnam, molestias quidem dolorem similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi quo culpa perferendis omnis esse nesciunt dignissimos veniam cum ratione porro quas quis cupiditate, eius repudiandae facilis error natus alias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam suscipit eum nobis praesentium asperiores minima tempore, iusto nulla perspiciatis dicta quidem facilis, pariatur quisquam omnis eveniet totam ex vero perferendis?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere ex exercitationem voluptatibus ipsum, quia quas perspiciatis vel ipsa? Et fugiat nisi veniam aperiam dolorem quos non commodi quidem expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cumque ex odio minima voluptate ratione explicabo beatae qui magnam minus nemo, accusamus libero provident possimus suscipit obcaecati amet vitae commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ea cupiditate dignissimos consectetur quae vero, laborum molestiae odit laudantium vitae nemo rerum, adipisci culpa impedit magnam, molestias quidem dolorem similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi quo culpa perferendis omnis esse nesciunt dignissimos veniam cum ratione porro quas quis cupiditate, eius repudiandae facilis error natus alias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam suscipit eum nobis praesentium asperiores minima tempore, iusto nulla perspiciatis dicta quidem facilis, pariatur quisquam omnis eveniet totam ex vero perferendis?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere ex exercitationem voluptatibus ipsum, quia quas perspiciatis vel ipsa? Et fugiat nisi veniam aperiam dolorem quos non commodi quidem expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cumque ex odio minima voluptate ratione explicabo beatae qui magnam minus nemo, accusamus libero provident possimus suscipit obcaecati amet vitae commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ea cupiditate dignissimos consectetur quae vero, laborum molestiae odit laudantium vitae nemo rerum, adipisci culpa impedit magnam, molestias quidem dolorem similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi quo culpa perferendis omnis esse nesciunt dignissimos veniam cum ratione porro quas quis cupiditate, eius repudiandae facilis error natus alias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam suscipit eum nobis praesentium asperiores minima tempore, iusto nulla perspiciatis dicta quidem facilis, pariatur quisquam omnis eveniet totam ex vero perferendis?</p>
 </body>
 </html>
